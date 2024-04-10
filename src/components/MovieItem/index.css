@@ -1,0 +1,84 @@
+.thumbnail {
+    width: 8rem;
+    height: 5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  
+  @media (min-width: 1200px) {
+    .thumbnail {
+      width: 20rem;
+      height: 13rem;
+      object-fit: cover;
+    }
+  }
+  
+  .popup-content {
+    background-color: #ffffff;
+    width: 38%;
+    height: 50%;
+    padding-left: 1rem;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+  
+  .modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+  }
+  
+  .close-button {
+    align-self: flex-end;
+    background-color: transparent;
+    width: 28px;
+    height: 28px;
+    border: none;
+    margin-top: 18px;
+    margin-left: auto;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .movie-player-container {
+    width: 16rem;
+    height: 8rem;
+  }
+
+  .video-wrapper {
+    height: 85%;
+    width: 95%;
+    min-height: 225px;
+   }
+
+@media (max-width:800px){
+  .modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+  }
+  .popup-content {
+    background-color: #ce8e8e;
+    width: 50%;
+    height: 35%;
+    padding-left: 1rem;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.video-wrapper {
+  height: 50%;
+  width: 95%;
+  min-height: 225px;
+ }
+}
