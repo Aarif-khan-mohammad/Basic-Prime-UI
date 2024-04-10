@@ -15,9 +15,13 @@
   
   .popup-content {
     background-color: #ffffff;
-    width: 38%;
-    height: 50%;
+    width: 30%;
+    height: 38%;
     padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 16px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
@@ -44,15 +48,10 @@
     outline: none;
     cursor: pointer;
   }
-  
-  .movie-player-container {
-    width: 16rem;
-    height: 8rem;
-  }
 
   .video-wrapper {
-    height: 85%;
-    width: 95%;
+    height: 18rem;
+    width: 30rem;
     min-height: 225px;
    }
 
